@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Trinity Lutheran Church</title>
+        <link rel="stylesheet" href="css/app.css">
+    </head>
+    <body>
+        <div class="uk-position-relative">
+            <div class="uk-cover-container" uk-height-viewport>
+                <img src="images/crosses.png" alt="" uk-cover>
+            </div>
+            <div class="uk-position-top">
+            <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 200">     
+                <nav class="uk-navbar-container uk-navbar-transparent uk-light">
+                    <div uk-navbar>
+    
+                        <ul class="uk-navbar-nav uk-visible@m">
+                            <li class="uk-active"><a href="#">Trinity Lutheran Church</a></li>
+                            <li>
+                                <a href="#services">Services</a>
+                            </li>
+                            <li>
+                                <a href="#contact-us">Contact Us</a>
+                            </li>
+                        </ul>
+                        <ul class="uk-navbar-nav uk-hidden@m">
+                            <li><a href="#" class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a></li>
+                            <li class="uk-active"><a href="#">Trinity Lutheran Church</a></li>
+                        </ul>
+                        
+                    </div>
+                </nav>
+            </div>
+            </div>
+        </div>
+
+        <div id="sidenav" uk-offcanvas="overlay: true" class="uk-offcanvas">
+            <div class="uk-offcanvas-bar">
+                <ul class="uk-nav uk-default">
+                    <li>
+                        <a class="uk-text-large" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="uk-text-large" href="#contact-us">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="services" class="uk-section uk-section-muted">
+            <div class="uk-container">                                                 
+                <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body uk-text-center uk-card-hover">
+                            <h3 class="uk-card-title">Main Service</h3>
+                            <p>Sunday 10:00 AM</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body uk-text-center uk-card-hover">
+                            <h3 class="uk-card-title">Kid's Church</h3>
+                            <p>Sunday 10:00 AM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact-us" class="uk-section uk-section-muted">
+            <div class="uk-container">
+                <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
+                    <div>
+                        <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJBzBFcJDSwoARNdpSj_wzvb4&key=AIzaSyDuLdFOa7i86v__YtYGJSZQLqZBS9V09kM" allowfullscreen></iframe>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+                            <h2 class="uk-card-title">Contact Us</h2>
+                            <ul class="uk-list">
+                                <li>
+                                    <span uk-icon="location"></span>
+                                    11507 Studebaker Rd, Norwalk, California 90650
+                                </li>
+                                <li>
+                                    <span uk-icon="receiver"></span>
+                                    (562) 864-3713
+                                </li>
+                                <li>
+                                    <span uk-icon="facebook"></span>
+                                    <a class="uk-link-text" href="https://www.facebook.com/TrinityNorwalk/">TrinityNorwalk</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="js/app.js"></script>
+    </body>
+</html>
+
