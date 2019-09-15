@@ -10,7 +10,10 @@ export class EventsComponent implements OnInit, AfterViewInit {
 
   constructor() { }
 
+  public pluginWidth : string;
+
   ngOnInit() {
+    this.pluginWidth = window.innerWidth < 500 ? window.innerWidth + "px" : "500px"
   }
 
   ngAfterViewInit() {

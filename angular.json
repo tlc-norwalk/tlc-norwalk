@@ -130,7 +130,7 @@
           "builder": "angular-cli-ghpages:deploy",
           "options": {
             "cname": "tlc-norwalk.org",
-            "branch": "master",
+            "branch": "master"
           }
         }
       }
