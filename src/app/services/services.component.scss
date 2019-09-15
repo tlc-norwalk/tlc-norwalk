@@ -1,0 +1,11 @@
+.banner-container {
+    height: 500px;
+}
+
+.banner {
+    max-width: none;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -15%);
+}
