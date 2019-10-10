@@ -16,3 +16,16 @@
 body {
     background: #f8f8f8;
 }
+
+.banner-container {
+    height: 350px;
+    background-color: #27ADD3;
+}
+
+.banner {
+    max-width: none;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -15%);
+}
