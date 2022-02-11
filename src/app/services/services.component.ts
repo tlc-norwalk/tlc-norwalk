@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
+declare const FB: any;
 
 @Component({
   selector: 'app-services',
@@ -9,6 +10,13 @@ export class ServicesComponent implements OnInit {
 
   constructor() { }
 
+  public pluginWidth : string;
+
   ngOnInit() {
+    this.pluginWidth = window.innerWidth < 500 ? window.innerWidth + "px" : "500px"
+  }
+
+  ngAfterViewInit() {
+    FB.XFBML.parse();
   }
 }
